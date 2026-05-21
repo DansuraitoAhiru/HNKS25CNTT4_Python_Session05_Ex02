@@ -34,6 +34,5 @@ for branch in range(1, branch_count + 1):
     for classroom in range(1, class_count + 1):
         student_count = int(input(f"Nhập số học viên lớp {classroom}: "))
         total_students += student_count
-
-    # Bây giờ kết quả in ra sẽ độc lập và chính xác tuyệt đối
+        
     print(f"Chi nhánh {branch}: {total_students} học viên")
